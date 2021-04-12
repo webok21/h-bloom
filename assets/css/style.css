@@ -3,7 +3,6 @@
 font-family: 'Open Sans', sans-serif; */
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Open+Sans:wght@300&display=swap');
-
 body {
     margin: 0;
     padding: 0;
@@ -47,28 +46,34 @@ a:hover {
     border-bottom: 1px solid black;
 }
 .home-subscriptions {
-    font-size: 2.2em;
+    font-size: 2.3em;
+    font-weight: 400;
     letter-spacing: 0;
     padding-top: 3vh;
 }
-.home-p {
+.home-text {
     padding: 0 15%;
 }
 .options-heading {
     font-size: 1.9em;
     letter-spacing: 5px;
-    padding: 2vh 0;
+    margin: 0;
+    padding: 5vh 0 3vh;
 
 }
 .div-left, .div-right {
     display: inline-block;
     width: 30%;
+    margin: 2%;
 }
 .div-left p, .div-right p {
     padding-bottom: 4vh;
 }
 .div-left li, .div-right li {
     padding-bottom: 3vh;
+}
+.div-left h2, .div-right h2 {
+    letter-spacing: 3px;
 }
 .get-started {
     color: white;
@@ -77,16 +82,16 @@ a:hover {
     border: 1px solid #3d4246;
     text-decoration: none;
     letter-spacing: 5px;
-    padding: 2vh 12%;
+    padding: 1vh 14%;
 }
 .get-started:hover {
     color: #3d4246;
     background: #fff
 }
 .pic-flowers {
-    /* border-radius: ; */
     width: 80%;
     padding: 10vh 0;
+     /* border-radius: ; */
 }
 .terms {
     text-align: left;
